@@ -26,7 +26,7 @@ public final class Board {
             for (int c = 0; c < SIZE; c++) {
                 Piece piece = other.cells[r][c];
                 if (piece != null) {
-                    this.cells[r][c] = new Piece(piece.getColor(), piece.isQueen());
+                    this.cells[r][c] = new Piece(piece.getColor());
                 }
             }
         }

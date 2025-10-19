@@ -52,9 +52,9 @@ public final class Renderer {
     private char toCellChar(Piece piece, int r, int c) {
         if (piece != null) {
             if (piece.getColor() == Color.WHITE) {
-                return piece.isQueen() ? 'W' : 'w';
+                return  'W';
             } else {
-                return piece.isQueen() ? 'B' : 'b';
+                return  'B';
             }
         }
         // Dark squares are playable where (r+c) is odd.

@@ -112,7 +112,7 @@ public final class GameService {
     }
 
     private void addPieceMoves(Board board, int r, int c, Piece piece, List<Move> captures, List<Move> quiets) {
-        // Directions: for men, white moves up (-1), black moves down (+1); kings both ways
+        // Directions:  white moves up (-1), black moves down (+1);
         addPieceCaptures(board,r,c,piece,captures);
         addPieceQuietMoves(board,r,c,piece,quiets);
         
